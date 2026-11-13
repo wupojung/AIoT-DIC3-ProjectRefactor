@@ -31,7 +31,7 @@
 | 3. DESIGN.md → OpenSpec workflow | NOT STARTED | 等 1 及設計基線確認後 |
 | 4. Introduction refactor | NOT STARTED | 需要可查證證據 |
 | 5. Related work refactor | NOT STARTED | 需要 DOI / 全文證據檢核 |
-| 原始檔與研究材料匯入 | AWAITING UPLOADS | 不預先宣稱文件存在 |
+| 原始檔與研究材料匯入 | PARTIALLY ARCHIVED | 本組 Proposal PDF / PPTX 已收錄；既有 DESIGN.md 已核對；教師 PDF 因公開再散布權待確認而設 Publication Hold，詳見 [原始素材索引](research/originals/INDEX.md) |
 
 **目前工作焦點：資料盤點、分類、來源紀錄與 Research Refactor 的準備。** 表格狀態僅描述本 Repository，不代表原主專題的實作進度。
 
