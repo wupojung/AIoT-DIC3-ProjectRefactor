@@ -1,24 +1,32 @@
 # Originals — 原始素材索引
 
-本索引只登記來源原檔。教師文件（`TEACHER_ORIGINAL`）與本組成果（`TEAM_ORIGINAL`）分開管理。檔案完整性驗證不代表研究主張已獨立核對（`VERIFIED`），也不代表內容已正式採納（`FINAL`）。
+本資料夾保存**來源原檔**，不修改內容。老師規範（TCH）與本組已提交研究成果（TEAM）分類記錄；AI 整理或研究重寫成果必須移往其他資料夾。
 
-## Teacher Originals — `TEACHER_ORIGINAL`
+## 01. 老師提供的參考規範（TCH）
 
-| Asset ID | File Name | Exact Repository Path | Category | Source / Parent Asset | SHA-256 | Size (bytes) | Publication Status | Verification Status | Git Commit / PR |
-| --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- |
-| TCH-001 | `期末專題提案作業規範.pdf` | `research/originals/期末專題提案作業規範.pdf` (not published) | `ORIGINAL` | 老師提供；日期 UNKNOWN；原始版本 | `070d4d299a5da00b0c2b2395c2afff901e8318962c824db399af9043930b02a4` | 171407 | **Publication Hold** — 未找到明確公開再散布授權；本機原檔保留於 `incoming/` | 本機 PDF 可解析、非空、SHA-256 已計算；研究內容未核驗 | 未提交 |
-| TCH-002 | `A2Z outline example.pdf` | `research/originals/A2Z outline example.pdf` (not published) | `ORIGINAL` | 老師提供；日期 UNKNOWN；原始版本 | `777386d58818577471bb02067cd01b7b14d24dc55b497a6d667febdb2c207ef4` | 140798 | **Publication Hold** — 未找到明確公開再散布授權；本機原檔保留於 `incoming/` | 本機 PDF 可解析、非空、SHA-256 已計算 | 未提交 |
+| ID | 預計位置 | SHA-256（使用者上傳檔） | GitHub 狀態 |
+| --- | --- | --- | --- |
+| TCH-001 | `期末專題提案作業規範(1).pdf` | `070d4d299a5da00b0c2b2395c2afff901e8318962c824db399af9043930b02a4` | **PENDING BINARY UPLOAD** |
+| TCH-002 | `A2Z outline example .pdf` | `777386d58818577471bb02067cd01b7b14d24dc55b497a6d667febdb2c207ef4` | **PENDING BINARY UPLOAD** |
 
-本次檔案系統顯示 A2Z 檔名為 `A2Z outline example.pdf`（`.pdf` 前沒有空格）；先前索引記為 `A2Z outline example .pdf`。兩者 SHA-256 相同，代表只修正了登記檔名，原檔內容未變。兩份教師 PDF 均未複製到正式歸檔、未加入 Git，也未因本次要求推定授權。
+教師範本：<https://github.com/huanchen1107/2026-11-11-DIC3-ProjectRefactor>。本庫為 public，教師文件正式公開前仍需確認可再散布權利；無此權利時只公開書目與教師提供的原始連結。
 
-## Team Originals — `TEAM_ORIGINAL`
+## 02. 本組原始 Proposal（TEAM）
 
-| Asset ID | File Name | Exact Repository Path | Category | Source / Parent Asset | SHA-256 | Size (bytes) | Publication Status | Verification Status | Git Commit / PR |
-| --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- |
-| TEAM-001 | `01_Proposal_Document.pdf` | `research/originals/01_Proposal_Document.pdf` | `ORIGINAL` | 本組既有 Proposal；日期 UNKNOWN；原始版本 | `bfb83ccb67b0b2935322e189aca02f3a5d82a077603dbe03296a64e55acd43e6` | 219499 | PR #1 Open；尚未進入 `main` | PDF 可解析、非空；PR 分支內 hash 與來源相同；研究主張未核驗 | `20a6e37fbe540de5aef6fc91b2f7708475758e97` / [PR #1](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/1) |
-| TEAM-002 | `02_Proposal_Presentation.pptx` | `research/originals/02_Proposal_Presentation.pptx` | `ORIGINAL` | 本組既有 Proposal；日期 UNKNOWN；原始版本 | `a0bf70d5ae624fe797f0027f230893a83511eb64bc88972b61d596ad50b579f9` | 729680 | PR #1 Open；尚未進入 `main` | OOXML ZIP 結構有效、非空；PR 分支內 hash 與來源相同；研究主張未核驗 | `20a6e37fbe540de5aef6fc91b2f7708475758e97` / [PR #1](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/1) |
-| TEAM-003 | `DESIGN.md` | `research/originals/DESIGN.md` | `ORIGINAL` | 本組既有 Proposal；日期 UNKNOWN；原始版本 | `896a485d3f9b20f4ee58daf50f8af1574a51e8e5408681104e24c67c7781a567` | 12476 | PR #1 Open；尚未進入 `main` | UTF-8 有效；PR 分支檔案與 incoming 位元組一致；研究主張未核驗 | `20a6e37fbe540de5aef6fc91b2f7708475758e97` / [PR #1](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/1) |
+| ID | 檔案 | SHA-256（使用者上傳檔） | GitHub 狀態 |
+| --- | --- | --- | --- |
+| TEAM-001 | `01_Proposal_Document(1).pdf` | `bfb83ccb67b0b2935322e189aca02f3a5d82a077603dbe03296a64e55acd43e6` | **PENDING BINARY UPLOAD** |
+| TEAM-002 | `02_Proposal_Presentation.pptx` | `a0bf70d5ae624fe797f0027f230893a83511eb64bc88972b61d596ad50b579f9` | **PENDING BINARY UPLOAD** |
+| TEAM-003 | [`DESIGN.md`](DESIGN.md) | `896a485d3f9b20f4ee58daf50f8af1574a51e8e5408681104e24c67c7781a567` | **UPLOADED — git blob `7a3403a9cd5c502b41e42ea8c5821518655210d7`** |
 
-PR #1 為 `docs/originals-intake-20261113` 對 `main` 的未合併 PR；此表明確區分 PR 分支可讀取與 `main` 已發布。沒有重複提交 PR #1 的檔案。原檔安全掃描與格式驗證範圍見 PR #1 及其提交紀錄。
+以上 SHA-256 取自本次提供的實際來源檔；**不能把已算出雜湊理解為已上傳 GitHub**。上傳後需要再對照 GitHub 路徑及雜湊才改為 UPLOADED。
 
-回到 [Research Catalog](../README.md)。
+## 03. 原件處理與查核
+
+1. 原始檔保留原名稱、位元組及來源，禁止自動改寫。
+2. 所有 NotebookLM、Perplexity、ChatGPT 及交叉驗證分析需存於對應 `research/` 分類，不屬於 originals。
+3. `DESIGN.md` 是 2026-11-13 收到的本組研究設計快照，**目前是研究規格草稿，不代表 OpenSpec 已執行**。
+4. 檔名相似但內容不同者須給新版本或不同 Asset ID，不得默默覆寫。
+5. 本專案公開，確認著作權、隱私與敏感資訊後才能推送原件。
+
+回到 [研究總索引](../README.md)。

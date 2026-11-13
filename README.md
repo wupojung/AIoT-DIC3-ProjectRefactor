@@ -27,11 +27,11 @@
 | --- | --- | --- |
 | 1. OpenSpec 安裝與 SDD | NOT STARTED | 尚未安裝，先記錄要求 |
 | 2. A–F / 5 cores / 3 trade-offs / 10 details | IN PREPARATION | 待匯入原始報告、整理並核對 |
-| 2a. A4 landscape high-density numbered infographic | AI DRAFT — REVIEW PENDING | INFO-001 已提交 PR；圖表內容與文字尚待驗證，不是最終驗收版本 |
+| 2a. A4 landscape high-density numbered infographic | NOT STARTED | 待內容分析與版型製作 |
 | 3. DESIGN.md → OpenSpec workflow | NOT STARTED | 等 1 及設計基線確認後 |
 | 4. Introduction refactor | NOT STARTED | 需要可查證證據 |
 | 5. Related work refactor | NOT STARTED | 需要 DOI / 全文證據檢核 |
-| 原始檔與研究材料匯入 | IN REVIEW | TEAM 原件在 PR #1；NotebookLM 分析與 AI 資訊圖表在 PR #2；教師 PDF 再散布權未確認，暫不公開。詳見 [研究總索引](research/README.md) |
+| 原始檔與研究材料匯入 | AWAITING UPLOADS | 不預先宣稱文件存在 |
 
 **目前工作焦點：資料盤點、分類、來源紀錄與 Research Refactor 的準備。** 表格狀態僅描述本 Repository，不代表原主專題的實作進度。
 
@@ -62,6 +62,6 @@
 
 研究原始資料先由 Owner 匯入；AI 整理與查核採可追溯增量工作。重要變更透過 GitHub Issue / PR 留下說明，合併原則為 **Squash Merge**；不得因要求進度而省略證據紀錄。這個庫不自動啟動 OpenSpec 或對主專題進行寫入。
 
-## 06. Intake status
+## 06. Next intake
 
-NotebookLM 分析與 AI 資訊圖表已依來源分類提交 PR #2 審查；AI 內容尚未獨立核驗。兩份教師規範 PDF 留在本機 `incoming/`，等待明確公開再散布授權。Proposal 原件由 PR #1 提交，尚未合併。所有 AI 衍生內容、驗證結果與正式採納狀態分開記錄於各 [研究索引](research/README.md)。
+Owner 將依序上傳既有 Proposal PDF/PPTX、NotebookLM 分析、Perplexity 分析與修訂紀錄等。每批新增後請更新對應的 `INDEX.md` 及 [research/README.md](research/README.md)，並註明來源與驗證程度。
