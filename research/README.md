@@ -15,6 +15,6 @@
 
 每份實際收錄的檔案，應註明 **Asset ID、準確路徑、原始/衍生分類、來源人或系統、來源資產 ID、日期（未知則 UNKNOWN）、是否經查核、公開授權狀態、SHA-256（若有）**。
 
-PR #1 已合併至 `main`（merge commit `655e37d17693c559db66ba92d7cc3042db756f63`），收錄本組 Proposal PDF / PPTX 與既有 `DESIGN.md`。PR #2 已合併至 `main`（merge commit `96a97bfa7ba03cd695d064c9555e9483bef0aaaf`），收錄 NBLM-001 與 INFO-001；兩者仍是 AI 衍生內容，尚未獨立驗證或正式採納。Owner 已確認授課教師允許公開本次兩份參考 PDF；TCH-001、TCH-002 已提交 PR #3，等待合併。`ORIGINAL`、`VERIFIED` 與 `FINAL` 是不同狀態。OpenSpec 安裝與 Research Refactor 尚未開始。
+PR #1 已合併至 `main`（merge commit `655e37d17693c559db66ba92d7cc3042db756f63`），收錄本組 Proposal PDF / PPTX 與既有 `DESIGN.md`。PR #2 已合併至 `main`（merge commit `96a97bfa7ba03cd695d064c9555e9483bef0aaaf`），收錄 NBLM-001 與 INFO-001；兩者仍是 AI 衍生內容，尚未獨立驗證或正式採納。Owner 已確認授課教師允許公開本次兩份參考 PDF；TCH-001、TCH-002 已提交 PR #3。`ORIGINAL`、`VERIFIED` 與 `FINAL` 是不同狀態。OpenSpec 安裝與 Research Refactor 尚未開始。
 
 回到 [專案 README](../README.md)。

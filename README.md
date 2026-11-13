@@ -31,7 +31,7 @@
 | 3. DESIGN.md → OpenSpec workflow | NOT STARTED | 等 1 及設計基線確認後 |
 | 4. Introduction refactor | NOT STARTED | 需要可查證證據 |
 | 5. Related work refactor | NOT STARTED | 需要 DOI / 全文證據檢核 |
-| 原始檔與研究材料匯入 | IN REVIEW | TEAM 原件及 NBLM-001／INFO-001 已在 `main`（PR #1、#2）；教師已授權的 TCH-001／TCH-002 在 [PR #3](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/3)，尚待合併。詳見 [研究總索引](research/README.md) |
+| 原始檔與研究材料匯入 | IN REVIEW | TEAM 原件及 NBLM-001／INFO-001 已在 `main`（PR #1、#2）；教師已授權的 TCH-001／TCH-002 已提交 [PR #3](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/3)。詳見 [研究總索引](research/README.md) |
 
 **目前工作焦點：資料盤點、分類、來源紀錄與 Research Refactor 的準備。** 表格狀態僅描述本 Repository，不代表原主專題的實作進度。
 
@@ -64,4 +64,4 @@
 
 ## 06. Intake status
 
-Proposal 原件已由 PR #1 合併進 `main`；NotebookLM 分析與 AI 資訊圖表已由 PR #2 合併進 `main`，AI 內容仍未獨立核驗。Owner 已確認授課教師允許公開本次 DIC3 兩份參考 PDF，並已提交 [PR #3](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/3)，尚待合併。所有 AI 衍生內容、驗證結果與正式採納狀態分開記錄於各 [研究索引](research/README.md)。
+Proposal 原件已由 PR #1 合併進 `main`；NotebookLM 分析與 AI 資訊圖表已由 PR #2 合併進 `main`，AI 內容仍未獨立核驗。Owner 已確認授課教師允許公開本次 DIC3 兩份參考 PDF，並已由 [PR #3](https://github.com/wupojung/AIoT-DIC3-ProjectRefactor/pull/3) 提交。所有 AI 衍生內容、驗證結果與正式採納狀態分開記錄於各 [研究索引](research/README.md)。
