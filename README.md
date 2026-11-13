@@ -31,7 +31,7 @@
 | 3. DESIGN.md → OpenSpec workflow | NOT STARTED | 等 1 及設計基線確認後 |
 | 4. Introduction refactor | NOT STARTED | 需要可查證證據 |
 | 5. Related work refactor | NOT STARTED | 需要 DOI / 全文證據檢核 |
-| 原始檔與研究材料匯入 | IN REVIEW | TEAM 原件在 PR #1；NotebookLM 分析與 AI 資訊圖表在 PR #2；教師 PDF 再散布權未確認，暫不公開。詳見 [研究總索引](research/README.md) |
+| 原始檔與研究材料匯入 | IN REVIEW | TEAM 原件已在 `main`；NotebookLM 分析與 AI 資訊圖表在 PR #2；教師已授權的兩份參考 PDF 由本次 PR 提交。詳見 [研究總索引](research/README.md) |
 
 **目前工作焦點：資料盤點、分類、來源紀錄與 Research Refactor 的準備。** 表格狀態僅描述本 Repository，不代表原主專題的實作進度。
 
@@ -64,4 +64,4 @@
 
 ## 06. Intake status
 
-NotebookLM 分析與 AI 資訊圖表已依來源分類提交 PR #2 審查；AI 內容尚未獨立核驗。兩份教師規範 PDF 留在本機 `incoming/`，等待明確公開再散布授權。Proposal 原件由 PR #1 提交，尚未合併。所有 AI 衍生內容、驗證結果與正式採納狀態分開記錄於各 [研究索引](research/README.md)。
+NotebookLM 分析與 AI 資訊圖表已依來源分類提交 PR #2 審查；AI 內容尚未獨立核驗。Proposal 原件已由 PR #1 合併進 `main`。Owner 已確認授課教師允許公開本次 DIC3 兩份參考 PDF，現由本次 PR 審查。所有 AI 衍生內容、驗證結果與正式採納狀態分開記錄於各 [研究索引](research/README.md)。
