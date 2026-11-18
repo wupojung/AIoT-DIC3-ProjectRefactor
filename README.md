@@ -9,6 +9,12 @@
 - 教師要求與本庫執行狀態：以本 README 為入口；具體檔案以 [research/README.md](research/README.md) 為索引。
 - AI 工作規則：[agent.md](agent.md)（並由 [AGENTS.md](AGENTS.md) 引導支援該慣例的開發工具）。
 
+## 研究提案資訊圖表（Research Proposal Infographic）
+
+![台灣住宅智慧代理研究提案資訊圖表](research/infographic/台灣住宅智慧代理研究提案資訊圖表.png)
+
+> **狀態：AI 草稿，待研究內容與證據核驗。** 本圖為 A4 橫式高密度 NUMBERING 研究提案視覺化整理，不代表研究結果已完成驗證。詳見 [資訊圖表索引](research/infographic/INDEX.md)。
+
 ## 01. Teacher's DIC3 requirements（老師原文）
 
 1. **install openspec and be familiar with spec-driven development**
