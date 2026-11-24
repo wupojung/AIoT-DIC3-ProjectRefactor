@@ -6,6 +6,6 @@
 
 | Asset ID | Exact file path | Origin / input | Date | Review | Publication rights | SHA-256 |
 | --- | --- | --- | --- | --- | --- | --- |
-| PPLX-002 | [research/perplexity/PPLX-002_deep-research-q1-q3.md](PPLX-002_deep-research-q1-q3.md) | AI_PERPLEXITY；輸入為教師 Deep Research Q1–Q3 規範與 DESIGN.md；經網路搜尋生成 | 2026-11-25 | UNVERIFIED（來源狀態 FOUND_ONLY，待 cross-validation） | 本組自行撰寫，引用已標示來源；未檢查外部網頁著作權條件，未内含付費 PDF | PENDING（合併後依實際檔案計算） |
+| PPLX-002 | [research/perplexity/PPLX-002_deep-research-q1-q3.md](PPLX-002_deep-research-q1-q3.md) | AI_PERPLEXITY（衍生）；輸入：教師 Deep Research Q1–Q3 規範、本組 DESIGN.md；來源：網路搜尋與頁面讀取，16 筆來源見檔內來源清單；原始提示詞 UNAVAILABLE；版本 v1（PR #5 審查修正，commit 2f245f2） | 2026-11-25 | UNVERIFIED；來源層級 PAGE_READ／SNIPPET／FAILED，待 cross-validation（清單見檔末） | 本組自行撰寫並標示引用；僅連結外部來源，未內含第三方全文或付費 PDF；外部網頁著作權條件未逐一檢查 | e074a65e56013eff5270409c786a75b8e5b36bed788b4a024b16f421e99af298（v1 檔案，14,482 bytes，UTF-8；與 git blob c7ae013d1a3228ad80508e1d0ecd9af97db14a26 對應） |
 
 回到 [Research Catalog](../README.md)。
